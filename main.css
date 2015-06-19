@@ -1,17 +1,17 @@
 /*This is my stylesheeet for HTML3: Making it Real*/
 
 body {
-	background-color: #bbbfbd;
+	background-color: #7f8c8d;
 }
 
 
-.main {
-	padding: 1% 20%; 
+.col {
+	padding: 1% 15%; 
 }
 
 .header {
 	height: 200px;
-	background-color: #63c307;
+	background-color: #2ecc71;
 	position:relative;
 }
 
@@ -26,7 +26,7 @@ body {
 .nav {
 	height: 50px;
 	line-height: 50px;
-	background-color: black;
+	background-color: #34495e;
 }
 
 .nav-ul {
@@ -44,4 +44,52 @@ body {
 	display: inline-block;
 	text-decoration: none;
 	color: white;
+}
+
+.content {
+	background-color: #ecf0f1;
+	padding: 3%;
+}
+
+.section1 {
+	height: auto;
+}
+
+
+.h3 {
+	border-bottom: solid 1px #95a5a6;
+}
+
+.tbl-head-row {
+	background-color: #bdc3c7;
+}
+
+.tbl {
+	padding:;
+	border-collapse: collapse;
+}
+
+.tbl-data {
+	border: solid 1px #95a5a6;
+	padding: 1%;
+}
+
+.code {
+	background-color: #bdc3c7;
+}
+
+.pre {
+	white-space: pre;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.to-dos {
+	padding-left: 3%;
+}
+
+.article-byline {
+	color: #95a5a6;
 }
